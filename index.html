@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header>
+        <div class="player-info-content">
+            <div>
+                <h2 id="name-text">Ismael Bolaños Garcia</h2>
+                <h3 id="type-text">Universitario</h3>
+                <h4 id="sex-text">hombre</h4>
+            </div>
+        </div>
+        <div class="player-values">
+            <div>
+                <img src="./clock.svg" alt="">
+                <span id="time">100</span>
+            </div>
+        </div>
+    </header>
+    <section class="img-content">
+        <img id="history-img" src="./iniciacion-top.jpg" alt="">
+    </section>
+    <section class="dados">
+        <div><img id="dado1" src="./dados/dice-six-faces-five_39565.png" alt=""></div>
+        <div><img id="dado2" src="./dados/dice-six-faces-four_38563.png" alt=""></div>
+    </section>
+    <section class="dados-btn">
+        <button id="go-btn">Go</button>
+    </section>
+    <div id="form">
+        <form>
+            <label>Nombre: <input type="text" name="" id="name"></label>
+            <label>Edad: <input type="text" name="" id="age"></label>
+            <label>Sexo</label>
+            <label class="radios">
+                Hombre
+                <input type="radio" name="sex" id="sex" value="Hombre">
+                Mujer
+                <input type="radio" name="sex" id="sex" value="Mujer">
+            </label>
+            <label>
+                tipo:
+                <select id="type">
+                    <option value="Universitario">Universitario</option>
+                    <option value="Estudiante de ciclo">Estudiante de ciclo</option>
+                    <option value="Diseñador">Diseñador</option>
+                    <option value="Desempleado">Desempleado</option>
+                    <option value="Persona">Persona</option>
+                    <option value="Cursos Maker">Cursos Maker</option>
+                    <option value="Alien">Alien</option>
+                </select>
+            </label>
+            <button type="button" id="input-btn">Let´s Go</button>
+        </form>
+    </div>
+    <div id="info-content">
+        <div>
+            <h2 id="title">Title</h2>
+            <p id="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, 
+                commodi laborum? Mollitia eum cupiditate, culpa quas corrupti velit. 
+                Provident reiciendis ipsam et corporis, eius molestiae amet suscipit explicabo 
+                totam rem.
+            </p>
+            <div class="info-btn-content">
+                <button id="info-btn">ok</button>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

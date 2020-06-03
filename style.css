@@ -1,0 +1,223 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+form {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+}
+
+p, h2, h3, h4 {
+    margin: 0px;
+    padding: 0px;
+}
+
+button {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    color: white;
+    background-color: rgb(35, 177, 94);
+    border-radius: 2px;
+    padding: 7px 0px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+select {
+    margin-top: 10px;
+    padding: 7px 7px;
+}
+
+.radios {
+    display: flex;
+    flex-direction: row;
+    margin: 7px 0px;
+    font-size: 13px;
+    justify-content: center;
+}
+
+.radios input {
+    margin: 0px 9px;
+    margin-bottom: -5px;
+}
+
+#name,#age {
+    margin: 5px 0px;
+    padding: 7px 16px;
+}
+
+#age {
+    width: 20px;
+}
+
+
+#info-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    border-radius: 18px 18px 0px 0px;
+    box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.15);
+}
+
+#info-content > div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+#info-content > div::before {
+    position: absolute;
+    display: flex;
+    content: '';
+    top: 10px;
+    left: 50%;
+    width: 70px;
+    height: 3px;
+    background-color: rgb(212, 209, 209);
+    border-radius: 2px;
+    translate: -35px;
+}
+
+.info-btn-content {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.info-btn-content  button {
+    padding: 5px 20px;
+}
+
+#title {
+    margin: 7px 0px;
+    margin-top: 16px;
+    font-size: 1.2em;
+    padding-right: 10px;
+}
+
+#text {
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.player-info-content {
+    display: flex;
+    margin: 7px ;
+}
+
+.player-info-content > div {
+    display: flex;
+}
+
+.player-info-content > div:last-child {
+    flex-direction: column;
+    padding: 0px 7px;
+}
+
+.player-info-content h2 {
+    font-size: 1em;
+}
+
+.player-info-content h3 {
+    font-size: 0.7em;
+    margin: 2px 0px;
+}
+
+.player-info-content h4 {
+    font-size: 0.7em;
+    color: rgba(0, 0, 0, 0.336);
+}
+
+.player-info-content img {
+    width: 60px;
+    height: 60px;
+}
+
+.player-values  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 16px;
+}
+
+.player-values > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.player-values img {
+    width: 15px;
+    height: 15px;
+    margin-bottom: 7px;
+}
+
+.player-values span {
+    font-size: 0.7em;
+    font-weight: 800;
+}
+
+.img-content {
+    overflow: hidden;
+    height: 150px;
+}
+
+.img-content img {
+    width: 105%;
+    height: 108%;
+    margin-left: -15px;
+}
+
+.dados {
+    display: flex;
+    justify-content: center;
+    padding: 16px 0px;
+}
+
+.dados img {
+    width: 100px;
+    height: 100px;
+}
+
+.dados-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.dados-btn button {
+    padding: 7px 30px;
+}

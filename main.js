@@ -25,7 +25,7 @@ const inputBtn = document.getElementById('input-btn')
 inputBtn.addEventListener('click', (e) => {
     userName.innerText = name.value || 'Rndom Name';
     userType.innerText = type.value;
-    userSex.innerText  = sex[0].value || sex[1].value;
+    userSex.innerText  =sex[0].checked ? sex[0].value : sex[1].value;
     form.style.display = 'none';
 })
 

@@ -1,7 +1,7 @@
 /* FORMULARIO DE INICIO */
 const name = document.getElementById('name')
 const age = document.getElementById('age')
-const sex = document.getElementById('sex')
+const sex = document.getElementsByName('sex')
 const type = document.getElementById('type')
 
 /* CONTENIDO DEL USUARIO */
@@ -25,7 +25,7 @@ const inputBtn = document.getElementById('input-btn')
 inputBtn.addEventListener('click', (e) => {
     userName.innerText = name.value || 'Rndom Name';
     userType.innerText = type.value;
-    userSex.innerText  = sex.value;
+    userSex.innerText  = sex[0].value || sex[1].value;
     form.style.display = 'none';
 })
 

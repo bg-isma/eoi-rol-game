@@ -97,12 +97,11 @@ select {
     display: flex;
     content: '';
     top: 10px;
-    left: 50%;
+    align-self: center;
     width: 70px;
     height: 3px;
     background-color: rgb(212, 209, 209);
     border-radius: 2px;
-    translate: -35px;
 }
 
 .info-btn-content {
